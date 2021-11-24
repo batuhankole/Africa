@@ -57,3 +57,40 @@ nav{
 .icon{
     font: size 38px; 
 }
+
+/*nav*/
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-1{
+    flex-basis: 50%;
+}
+
+.container .box{
+    width: 500px;
+    height: 500px;
+    margin-top: -40px;
+    position: relative;
+}
+.container .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+
+}
+
+.container .box video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
